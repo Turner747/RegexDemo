@@ -1,0 +1,63 @@
+﻿1234567890
+			
+202-555-0102
+202-555-0196
+202.555.0196
+202#555#0196
+0175/12345678
++49165/12312347
+0049165/12312347
+
+australian phone number examples
+07 4152 6848
+617 4178 8461
+02 5524 6458
++617 4178 8461
+
+australian mobile numbers
+61427634986
++61415485296
+0427 623 952
++61427623952
++61427 623 952
+
+abcdefghijklmnopqurtuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+LaLa La La LaLa
+
+Mr. Panjuta
+Mr Muller
+Mr Robertson
+Mr. G
+Ms Smith
+Ms Jackson
+
+// Challenge - find website links
+https://www.tutorials.eu
+https://tutorials.eu
+http://www.tutorials.eu
+http://tutorials.eu
+
+http://www.face-book.eu
+https://test123.eu
+https://www.cqu.edu.eu
+
+test@test.com
+
+
+MetaCharacters (Need to be escaped):
+.[{()\^$|?*+
+
+
+
+
+
+^((\+49|0049)?\d{3,4}/\d{8}) -- my original
+
+(\+49)|0049|0?1(6|7)5/\d{8} -- actual
+
+\+?(61|0)\d(( |)\d{4}( |)\d{4}|\d{2}( |)\d{3}( |)\d{3}) -- aus phone numbers
+
+https?://(www.)?[a-z-.0-9]{1,50}.eu -- websites with european local domains
+https?://(www.)?(\w+)(\.\w+)
